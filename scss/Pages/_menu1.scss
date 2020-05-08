@@ -1,0 +1,60 @@
+h2
+{
+    font-size: 2rem;
+    text-align: center;
+}
+.top
+{
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+}
+.menu
+{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    padding: 5%;
+    /*text-align: center;*/
+    box-shadow: 5px 5px 10px grey;
+    .titre
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img 
+        {
+            width: 30%;
+        }
+    }
+
+    
+    ul
+    {
+        list-style: none;
+        padding: 0;
+        li
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    @each $bloc, $color in $blocs_colors {
+        &--#{$bloc}{
+            background-color: $color;
+            
+        } 
+    }   
+}
+.pied p
+{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 40px;
+    .bottom {
+        margin-right: 7px;
+    }
+}

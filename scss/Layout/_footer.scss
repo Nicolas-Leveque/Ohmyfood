@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    background: $background_header;
+    color: $color_header;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    padding: 0 2% 0 2%;
+    max-width: 1400px;
+    a {
+        color: $color_header;
+        text-decoration: none;
+    }
+}

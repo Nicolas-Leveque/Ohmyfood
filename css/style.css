@@ -1,12 +1,7 @@
-body {
-  max-width: 1100px;
-  margin: 0;
-}
-
+@charset "UTF-8";
 header {
   width: 100%;
 }
-
 header h1 {
   color: #fdcb46;
   background: #579c87;
@@ -16,80 +11,68 @@ header h1 {
   font-size: 6rem;
   margin-top: 0;
 }
-
-main {
-  max-width: 1000px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 3% 10% 10% 10%;
-  margin: auto;
-}
-
-main .bloc {
-  height: 450px;
-  width: 300px;
-  margin: 50px;
-  -webkit-box-shadow: 5px 5px 5px 5px gray;
-          box-shadow: 5px 5px 5px 5px gray;
-}
-
-main .bloc a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
-  height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
+header a {
   text-decoration: none;
 }
 
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 3% 10% 10% 10%;
+  margin: auto;
+}
+main .bloc {
+  height: 450px;
+  width: 35%;
+  margin: 5%;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+main .bloc a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+main .bloc--noteenchantée {
+  background-color: #fcdfdb;
+}
+main .bloc--chicfrançaise {
+  background-color: #fff5fe;
+}
+main .bloc--délicepapilles {
+  background-color: #f9f9f9;
+}
+main .bloc--palettegout {
+  background-color: #fdfffd;
+}
+
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: #579c87;
   color: #fdcb46;
   height: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: -webkit-sticky;
+  justify-content: space-between;
   position: sticky;
   bottom: 0;
   left: 0;
   padding: 0 2% 0 2%;
   max-width: 1400px;
 }
-
 footer a {
   color: #fdcb46;
   text-decoration: none;
 }
 
 aside {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 aside mark {
   width: 30%;
   border: solid 1px #579c87;
@@ -101,4 +84,65 @@ aside mark {
   font-size: 2rem;
   text-align: center;
 }
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.top {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  padding: 5%;
+  /*text-align: center;*/
+  box-shadow: 5px 5px 10px grey;
+}
+.menu .titre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu .titre img {
+  width: 30%;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.menu--noteenchantée {
+  background-color: #fcdfdb;
+}
+.menu--chicfrançaise {
+  background-color: #fff5fe;
+}
+.menu--délicepapilles {
+  background-color: #f9f9f9;
+}
+.menu--palettegout {
+  background-color: #fdfffd;
+}
+
+.pied p {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+.pied p .bottom {
+  margin-right: 7px;
+}
+
 /*# sourceMappingURL=style.css.map */
