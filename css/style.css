@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   width: 100%;
 }
@@ -83,76 +88,6 @@ aside mark {
   margin: 10px;
   font-size: 2rem;
   text-align: center;
-}
-
-h2 {
-  font-size: 2rem;
-  text-align: center;
-}
-
-.top {
-  width: 100%;
-  font-size: 4rem;
-  text-align: center;
-}
-
-.menu {
-  width: 80%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 10%;
-  padding: 5%;
-  /*text-align: center;*/
-  box-shadow: 5px 5px 10px grey;
-}
-.menu .titre {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.menu .titre .separateur1 {
-  fill: #3d1319;
-  width: 35%;
-}
-.menu .titre .separateur2 {
-  width: 35%;
-}
-.menu ul {
-  list-style: none;
-  padding: 0;
-}
-.menu ul li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-.menu--noteenchantée {
-  background-color: #fcdfdb;
-}
-.menu--chicfrançaise {
-  background-color: #fff5fe;
-}
-.menu--délicepapilles {
-  background-color: #f9f9f9;
-}
-.menu--palettegout {
-  background-color: #fdfffd;
-}
-
-.pied p {
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 40px;
-}
-.pied p .bottom {
-  margin-right: 7px;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,7 +16,6 @@ h2
     margin-right: 5%;
     margin-bottom: 10%;
     padding: 5%;
-    /*text-align: center;*/
     box-shadow: 5px 5px 10px grey;
     .titre
     {
@@ -24,6 +23,7 @@ h2
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        font-size: x-large;
         
         .separateur1
         {
@@ -33,7 +33,7 @@ h2
         }  
         .separateur2
         {
-            width: 35%;
+            width: 30%;
         }
     }
 

@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+header h1 {
+  color: #fdcb46;
+  background: #579c87;
+  text-align: center;
+  height: 10rem;
+  line-height: 10rem;
+  font-size: 6rem;
+  margin-top: 0;
+}
+header a {
+  text-decoration: none;
+}
+
+.mentions {
+  width: 80%;
+  margin-left: 10%;
+}
+
+footer {
+  display: flex;
+  background: #579c87;
+  color: #fdcb46;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  justify-content: space-between;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  padding: 0 2% 0 2%;
+  max-width: 1400px;
+}
+footer a {
+  color: #fdcb46;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=mentions.css.map */
