@@ -4,6 +4,22 @@ body {
   padding: 0;
 }
 
+@font-face {
+  font-family: "devonshire";
+  src: url(/fonts/Devonshire-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "gabriela";
+  src: url(/fonts/Gabriela-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "great-vibes";
+  src: url(/fonts/GreatVibes-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "meriendaone";
+  src: url(/fonts/MeriendaOne-Regular.ttf) format("truetype");
+}
 header {
   width: 100%;
 }
@@ -42,6 +58,20 @@ main .bloc a {
   text-align: center;
   text-decoration: none;
 }
+main .bloc a i:before {
+  width: fit-content;
+  font-size: 4rem;
+  background: linear-gradient(to right, #f05461, #f6916a);
+  background-clip: text;
+  color: transparent;
+}
+main .bloc a h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+main .bloc a h2 {
+  font-size: 2.5rem;
+}
 main .bloc--noteenchantée {
   background-color: #fcdfdb;
 }
@@ -53,6 +83,33 @@ main .bloc--délicepapilles {
 }
 main .bloc--palettegout {
   background-color: #fdfffd;
+}
+main .bloc--noteenchantée {
+  font-family: devonshire;
+}
+main .bloc--chicfrançaise {
+  font-family: gabriela;
+}
+main .bloc--délicepapilles {
+  font-family: great-vibes;
+}
+main .bloc--palettegout {
+  font-family: meriendaone;
+}
+main .bloc--chicfrançaise h3 {
+  background: linear-gradient(90deg, #e38a12, #915dfe);
+  background-clip: text;
+  color: transparent;
+}
+main .bloc--délicepapilles h3 {
+  background: linear-gradient(90deg, #314de1, #349cfb);
+  background-clip: text;
+  color: transparent;
+}
+main .bloc--palettegout h3 {
+  background: linear-gradient(90deg, #3e923a, #bfff80);
+  background-clip: text;
+  color: transparent;
 }
 
 footer {

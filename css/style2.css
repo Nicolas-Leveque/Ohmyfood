@@ -4,6 +4,22 @@ body {
   padding: 0;
 }
 
+@font-face {
+  font-family: "devonshire";
+  src: url(/fonts/Devonshire-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "gabriela";
+  src: url(/fonts/Gabriela-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "great-vibes";
+  src: url(/fonts/GreatVibes-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "meriendaone";
+  src: url(/fonts/MeriendaOne-Regular.ttf) format("truetype");
+}
 header {
   width: 100%;
 }

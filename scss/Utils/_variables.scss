@@ -1,3 +1,8 @@
 $color_header: #fdcb46;
 $background_header: #579c87;
 $blocs_colors: (noteenchantée: #fcdfdb, chicfrançaise: #fff5fe, délicepapilles: #f9f9f9, palettegout: #fdfffd);
+$blocs_font: (noteenchantée: devonshire, chicfrançaise: gabriela, délicepapilles: great-vibes, palettegout: meriendaone);
+$gradient_chicfrançaise: #e38a12, #915dfe;
+$gradient_délicepapilles: #314de1, #349cfb;
+$gradient_palettegout: #3e923a, #bfff80;
+$map_gradient: ( chicfrançaise:$gradient_chicfrançaise, délicepapilles:$gradient_délicepapilles, palettegout:$gradient_palettegout);

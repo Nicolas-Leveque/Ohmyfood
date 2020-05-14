@@ -17,12 +17,39 @@ main {
             justify-content: center;
             text-align: center;
             text-decoration: none;
+            i:before {
+                width: fit-content ;
+                font-size: 4rem;
+                background: linear-gradient(to right, #f05461, #f6916a);
+                background-clip: text;
+                color: transparent;
+            }
+            h3 {
+                font-size: 2rem;
+                font-weight: normal;
+            }
+            h2 {
+                font-size: 2.5rem;
+            }
         }
     @each $bloc, $color in $blocs_colors {
         &--#{$bloc}{
             background-color: $color;
             
         }    
+    }
+    @each $bloc, $font in $blocs_font {
+        &--#{$bloc}{
+            font-family: $font;
+        }
+    }
+    
+    @each $bloc, $gradient in $map_gradient {
+        &--#{$bloc} h3 {
+            background: linear-gradient(90deg, nth($gradient, 1), nth($gradient, 2));
+            background-clip: text;
+            color: transparent;
+        } 
     }
     }
     
