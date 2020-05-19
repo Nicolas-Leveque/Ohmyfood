@@ -6,19 +6,19 @@ body {
 
 @font-face {
   font-family: "devonshire";
-  src: url(../fonts/Devonshire-Regular.ttf) format("truetype");
+  src: url(../../fonts/Devonshire-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "gabriela";
-  src: url(../fonts/Gabriela-Regular.ttf) format("truetype");
+  src: url(../../fonts/Gabriela-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "great-vibes";
-  src: url(../fonts/GreatVibes-Regular.ttf) format("truetype");
+  src: url(../../fonts/GreatVibes-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "meriendaone";
-  src: url(../fonts/MeriendaOne-Regular.ttf) format("truetype");
+  src: url(../../fonts/MeriendaOne-Regular.ttf) format("truetype");
 }
 header {
   width: 100%;
@@ -74,6 +74,13 @@ h2 {
   padding: 5%;
   box-shadow: 5px 5px 10px grey;
 }
+.menu i {
+  width: fit-content;
+  font-size: 4rem;
+  background: linear-gradient(to right, #f05461, #f6916a);
+  background-clip: text;
+  color: transparent;
+}
 .menu .titre {
   display: flex;
   flex-direction: row;
@@ -98,6 +105,14 @@ h2 {
   justify-content: space-between;
   width: 100%;
 }
+.menu h3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  width: fit-content;
+  font-size: 3rem;
+  justify-content: center;
+}
 .menu--noteenchantée {
   background-color: #fcdfdb;
 }
@@ -109,6 +124,82 @@ h2 {
 }
 .menu--palettegout {
   background-color: #fdfffd;
+}
+.menu--chicfrançaise h3 {
+  background: linear-gradient(90deg, #e38a12, #915dfe);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+.menu--délicepapilles h3 {
+  background: linear-gradient(90deg, #314de1, #349cfb);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+.menu--palettegout h3 {
+  background: linear-gradient(90deg, #3e923a, #bfff80);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+.menu--noteenchantée {
+  font-family: devonshire;
+}
+.menu--chicfrançaise {
+  font-family: gabriela;
+}
+.menu--délicepapilles {
+  font-family: great-vibes;
+}
+.menu--palettegout {
+  font-family: meriendaone;
+}
+.menu--chicfrançaise .entrée {
+  color: #c67412;
+  fill: #c67412;
+}
+.menu--chicfrançaise .plat {
+  color: #a56799;
+  fill: #a56799;
+}
+.menu--chicfrançaise .dessert {
+  color: #6e4ccc;
+  fill: #6e4ccc;
+}
+.menu--chicfrançaise .liste {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.menu--délicepapilles .entrée {
+  fill: #0228dd;
+}
+.menu--délicepapilles .plat {
+  fill: #0670f3;
+}
+.menu--délicepapilles .dessert {
+  fill: #229df9;
+}
+.menu--délicepapilles .liste {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.menu--palettegout .liste {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.menu--palettegout .separateur-left {
+  fill: url(#Gradient-left);
+}
+.menu--palettegout .separateur-right {
+  fill: url(#Gradient-right);
+}
+
+#top {
+  position: relative;
+  top: 0;
+  left: 45%;
+  font-size: 6rem;
 }
 
 .pied p {

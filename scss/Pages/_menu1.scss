@@ -17,6 +17,15 @@ h2
     margin-bottom: 10%;
     padding: 5%;
     box-shadow: 5px 5px 10px grey;
+    i {
+        
+        width: fit-content ;
+        font-size: 4rem;
+        background: linear-gradient(to right, #f05461, #f6916a);
+        background-clip: text;
+        color: transparent;
+       
+    }
     .titre
     {
         display: flex;
@@ -50,12 +59,67 @@ h2
             width: 100%;
         }
     }
-    @each $bloc, $color in $blocs_colors {
-        &--#{$bloc}{
-            background-color: $color;
+    h3 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        width: fit-content;
+        font-size: 3rem;
+        justify-content: center;
+    }
+    @include blocs_color;
+    @include gradient_titre;
+    @include blocs_font;
+    &--chicfrançaise {
+        .entrée {
+            color: $chic_color1;
+            fill: $chic_color1;
+        }
+        .plat {
+            color: $chic_color2;
+            fill: $chic_color2;
             
-        } 
-    }   
+        }
+        .dessert {
+            color: $chic_color3;
+            fill: $chic_color3;
+        }
+        .liste {
+            @include menu_typo_alt;
+        }
+    }
+    &--délicepapilles {
+        .entrée {
+            fill: $délice_color1;
+        }
+        .plat {
+            fill: $délice_color2;
+        }
+        .dessert {
+            fill: $délice_color3;
+        }
+        .liste {
+            @include menu_typo_alt;
+        }
+    }
+    &--palettegout {
+        .liste {
+            @include menu_typo_alt;
+        }
+        .separateur-left {
+            fill: url(#Gradient-left);
+        }
+        .separateur-right {
+            fill: url(#Gradient-right);
+        }
+    }
+ 
+}
+#top {
+    position: relative;
+    top:0;
+    left: 45%;
+    font-size: 6rem;
 }
 .pied p
 {

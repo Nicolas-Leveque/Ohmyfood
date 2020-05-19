@@ -1,0 +1,29 @@
+@mixin blocs_color {
+    @each $bloc, $color in $blocs_colors {
+        &--#{$bloc}{
+            background-color: $color;
+            
+        }    
+}
+}
+@mixin blocs_font{
+    @each $bloc, $font in $blocs_font {
+        &--#{$bloc}{
+            font-family: $font;
+        }
+    }
+}
+@mixin gradient_titre {
+    @each $bloc, $gradient in $map_gradient {
+        &--#{$bloc} h3 {
+            background: linear-gradient(90deg, nth($gradient, 1), nth($gradient, 2));
+            background-clip: text;
+            color: transparent;
+            text-align: center;
+        } 
+    }
+}
+@mixin menu_typo_alt {
+    padding-left: 10%;
+    padding-right: 10%;
+}
