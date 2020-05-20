@@ -14,5 +14,8 @@ footer {
     a {
         color: $color_header;
         text-decoration: none;
+        &:hover {
+            animation: wiggle 0.5s infinite;
+        }
     }
 }

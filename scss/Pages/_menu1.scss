@@ -17,6 +17,30 @@ h2
     margin-bottom: 10%;
     padding: 5%;
     box-shadow: 5px 5px 10px grey;
+    h4 {
+        width: 35%;
+        font-size: 1.5rem;
+        
+        text-align: center;
+        & span {
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 2px;            
+                bottom: 0;
+                left: 0;
+                visibility: hidden;
+                transition: all 0.4s ease-in-out;
+                background: black;                       
+                }
+                 &:hover:before  {
+                visibility: visible;
+                width: 100%;
+        }
+    }          
+    }
     i {
         
         width: fit-content ;
