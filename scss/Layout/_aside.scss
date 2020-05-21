@@ -2,7 +2,7 @@ aside {
     display: flex;
     justify-content: center;
     mark {
-        width: 30%;
+        width: auto;
         border: solid 1px $background_header;
         border-radius: 10px;
         color: $color_header;
@@ -11,5 +11,6 @@ aside {
         margin: 10px;
         font-size: 2rem;
         text-align: center;
+        
     }
 }

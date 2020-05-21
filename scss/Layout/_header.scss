@@ -1,5 +1,8 @@
 header {
     width: 100%;
+    a {
+        text-decoration: none;
+    }
     h1 
     {
         color: $color_header;
@@ -10,5 +13,8 @@ header {
         font-size: 6rem;
         margin-top: 0;
         letter-spacing: -2px;
+        @include mobile {
+            font-size: 4rem;
+        }
     }
 }

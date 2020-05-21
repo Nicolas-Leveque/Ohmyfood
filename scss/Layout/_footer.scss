@@ -18,4 +18,15 @@ footer {
             animation: wiggle 0.5s infinite;
         }
     }
+    @include mobile {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+    }
 }

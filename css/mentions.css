@@ -38,8 +38,12 @@ body {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+/*mixins responsive */
 header {
   width: 100%;
+}
+header a {
+  text-decoration: none;
 }
 header h1 {
   color: #fdcb46;
@@ -50,6 +54,11 @@ header h1 {
   font-size: 6rem;
   margin-top: 0;
   letter-spacing: -2px;
+}
+@media all and (max-width: 600px) {
+  header h1 {
+    font-size: 4rem;
+  }
 }
 
 .mentions {
@@ -77,6 +86,19 @@ footer a {
 }
 footer a:hover {
   animation: wiggle 0.5s infinite;
+}
+@media all and (max-width: 600px) {
+  footer {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=mentions.css.map */
