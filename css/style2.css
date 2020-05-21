@@ -72,7 +72,7 @@ header h1 {
   margin-top: 0;
   letter-spacing: -2px;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 599px) {
   header h1 {
     font-size: 4rem;
   }
@@ -99,7 +99,7 @@ footer a {
 footer a:hover {
   animation: wiggle 0.5s infinite;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 599px) {
   footer {
     height: auto;
     flex-direction: column;
@@ -169,12 +169,23 @@ h2 {
   align-items: center;
   font-size: x-large;
 }
+@media all and (max-width: 599px) {
+  .menu .titre {
+    flex-direction: column-reverse;
+  }
+}
 .menu .titre .separateur1 {
   fill: #3d1319;
-  width: 35%;
+  /*width: 35%;*/
 }
 .menu .titre .separateur2 {
-  width: 30%;
+  /* width: 30%;*/
+}
+.menu .titre .separateur-left {
+  width: 50%;
+}
+.menu .titre .separateur-right {
+  width: 75%;
 }
 .menu ul {
   list-style: none;
@@ -189,7 +200,6 @@ h2 {
 .menu h3 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 40%;
   text-align: center;
   font-size: 3rem;
 }
@@ -275,10 +285,10 @@ h2 {
   fill: url(#Gradient-right);
 }
 
-#top {
-  position: relative;
-  top: 0;
-  left: 45%;
+.icon {
+  text-align: center;
+}
+.icon i {
   font-size: 6rem;
 }
 
