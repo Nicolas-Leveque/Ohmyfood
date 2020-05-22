@@ -59,6 +59,7 @@ h2
         font-size: x-large;
         @include mobile {
             flex-direction: column-reverse;
+            
         }
         
         .separateur1
@@ -71,10 +72,16 @@ h2
            /* width: 30%;*/
         }
         .separateur-left {
-            width: 50%;
+            width: 30%;
+            @include mobile {
+                width: 50%;
+            }
         }
         .separateur-right {
-            width: 75%;
+            width: 30%;
+            @include mobile {
+                width: 75%;
+            }
         }
     }
 
