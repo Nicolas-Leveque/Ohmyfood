@@ -57,16 +57,24 @@ h2
         justify-content: space-between;
         align-items: center;
         font-size: x-large;
+        @include mobile {
+            flex-direction: column-reverse;
+        }
         
         .separateur1
         {
             fill: #3d1319;
-            width: 35%;
-                       
+            /*width: 35%;*/           
         }  
         .separateur2
         {
-            width: 30%;
+           /* width: 30%;*/
+        }
+        .separateur-left {
+            width: 50%;
+        }
+        .separateur-right {
+            width: 75%;
         }
     }
 
@@ -86,10 +94,8 @@ h2
     h3 {
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
-        width: fit-content;
+        text-align: center;
         font-size: 3rem;
-        justify-content: center;
     }
     @include blocs_color;
     @include gradient_titre;
@@ -139,12 +145,13 @@ h2
     }
  
 }
-#top {
-    position: relative;
-    top:0;
-    left: 45%;
+.icon {
+    text-align: center;
+    i {
     font-size: 6rem;
+    }
 }
+
 .pied p
 {
     text-align: center;

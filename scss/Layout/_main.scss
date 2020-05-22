@@ -4,11 +4,22 @@ main {
     flex-wrap: wrap;
     padding: 3% 10% 10% 10%;
     margin: auto;
+    @include tablette {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            
+        }
     .bloc {
         @include blocs_color;
         @include blocs_font;    
         @include gradient_titre;
-        height: 450px;
+        @include tablette {
+            height: 250px;
+            width: auto;
+        }
+        
+        height: 400px;
         width: 35%;
         margin: 5%;
         box-shadow: 5px 5px 5px 5px gray;
