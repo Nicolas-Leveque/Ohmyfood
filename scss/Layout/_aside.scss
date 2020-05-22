@@ -2,9 +2,11 @@ aside {
     display: flex;
     justify-content: center;
     mark {
-        width: 30%;
+        display: flex;
+        flex-direction: row;
+        max-width: 30%;
         border: solid 1px $background_header;
-        border-radius: 10px;
+        border-radius: 20px;
         color: $color_header;
         background-color: $background_header;
         padding: 20px;
@@ -12,4 +14,13 @@ aside {
         font-size: 2rem;
         text-align: center;
     }
+}
+.dot {
+    animation: dot 500ms ease-in infinite alternate;
+}
+.dot--1 {
+    animation-delay: 100ms;
+}
+.dot--2 {
+    animation-delay: 200ms;
 }
