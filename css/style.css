@@ -39,6 +39,14 @@ body {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+@keyframes dot {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
 @font-face {
   font-family: "devonshire";
   src: url(../fonts/Devonshire-Regular.ttf) format("truetype");
@@ -186,15 +194,29 @@ aside {
   justify-content: center;
 }
 aside mark {
-  width: 30%;
+  display: flex;
+  flex-direction: row;
+  max-width: 30%;
   border: solid 1px #579c87;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #fdcb46;
   background-color: #579c87;
   padding: 20px;
   margin: 10px;
   font-size: 2rem;
   text-align: center;
+}
+
+.dot {
+  animation: dot 500ms ease-in infinite alternate;
+}
+
+.dot--1 {
+  animation-delay: 100ms;
+}
+
+.dot--2 {
+  animation-delay: 200ms;
 }
 
 /*# sourceMappingURL=style.css.map */
