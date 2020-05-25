@@ -17,36 +17,14 @@ h2
     margin-bottom: 10%;
     padding: 5%;
     box-shadow: 5px 5px 10px grey;
-    h4 {
-        width: 35%;
-        font-size: 1.5rem;
-        
-        text-align: center;
-        & span {
-            position: relative;
-            &:before {
-                content: "";
-                position: absolute;
-                width: 0;
-                height: 2px;            
-                bottom: 0;
-                left: 0;
-                visibility: hidden;
-                transition: all 0.4s ease-in-out;
-                background: black;                       
-                }
-                 &:hover:before  {
-                visibility: visible;
-                width: 100%;
-        }
-    }          
-    }
+    @include underline_menu;
     i {
         
         width: fit-content ;
         font-size: 4rem;
-        background: linear-gradient(to right, #f05461, #f6916a);
+        background: linear-gradient(to right, nth($gradient_noteenchantée, 1 ), nth( $gradient_noteenchantée, 2));
         background-clip: text;
+        -webkit-background-clip: text;
         color: transparent;
        
     }
@@ -60,16 +38,6 @@ h2
         @include mobile {
             flex-direction: column-reverse;
             
-        }
-        
-        .separateur1
-        {
-            fill: #3d1319;
-            /*width: 35%;*/           
-        }  
-        .separateur2
-        {
-           /* width: 30%;*/
         }
         .separateur-left {
             width: 30%;
@@ -107,6 +75,10 @@ h2
     @include blocs_color;
     @include gradient_titre;
     @include blocs_font;
+    &--noteenchantée {
+        color: $note_color;
+        fill: $note_color;
+    } 
     &--chicfrançaise {
         .entrée {
             color: $chic_color1;

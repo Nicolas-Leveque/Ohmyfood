@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+/*couleur header*/
+/*couleur fond et font des blocs menu*/
+/*gradient et couleur menus*/
+/*breakpoints responsive*/
 /*mixins responsive */
 @keyframes wiggle {
   0% {
@@ -133,18 +137,21 @@ main .bloc--palettegout {
 main .bloc--chicfrançaise h3 {
   background: linear-gradient(90deg, #e38a12, #915dfe);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   text-align: center;
 }
 main .bloc--délicepapilles h3 {
   background: linear-gradient(90deg, #314de1, #349cfb);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   text-align: center;
 }
 main .bloc--palettegout h3 {
   background: linear-gradient(90deg, #3e923a, #bfff80);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   text-align: center;
 }
@@ -178,6 +185,7 @@ main .bloc a i {
   font-size: 4rem;
   background: linear-gradient(to right, #f05461, #f6916a);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 main .bloc a h3 {
@@ -231,7 +239,7 @@ aside {
 aside mark {
   display: flex;
   flex-direction: row;
-  max-width: 30%;
+  /*max-width: 30%;*/
   border: solid 1px #579c87;
   border-radius: 20px;
   color: #fdcb46;

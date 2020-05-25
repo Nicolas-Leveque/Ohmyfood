@@ -1,16 +1,26 @@
+/*couleur header*/
 $color_header: #fdcb46;
 $background_header: #579c87;
+/*couleur fond et font des blocs menu*/
 $blocs_colors: (noteenchantée: #fcdfdb, chicfrançaise: #fff5fe, délicepapilles: #f9f9f9, palettegout: #fdfffd);
 $blocs_font: (noteenchantée: devonshire, chicfrançaise: gabriela, délicepapilles: great-vibes, palettegout: meriendaone);
+/*gradient et couleur menus*/
+$gradient_noteenchantée: #f05461, #f6916a;
+$note_color: #3d1319;
+$note_menu_colors: (entrée: #3d1319, plat: #3d1319, dessert: #3d1319);
 $gradient_chicfrançaise: #e38a12, #915dfe;
+$chic_menu_colors: (entrée: #c67412, plat: #a56799, dessert: #6e4ccc);
 $chic_color1: #c67412;
 $chic_color2: #a56799;
 $chic_color3: #6e4ccc;
 $gradient_délicepapilles: #314de1, #349cfb;
+$délice_menu_colors: (entrée: #0228dd, plat: #0670f3, dessert: #229df9);
 $délice_color1: #0228dd;
 $délice_color2: #0670f3;
 $délice_color3: #229df9;
 $gradient_palettegout: #3e923a, #bfff80;
-$palette_separation-grad: #41963c, #bcfd7e;
+$palettegout_menu_colors: (entrée: #3e923a, plat: #3e923a, dessert: #3e923a);
 $map_gradient: ( chicfrançaise:$gradient_chicfrançaise, délicepapilles:$gradient_délicepapilles, palettegout:$gradient_palettegout);
+$map_menu_colors: ( noteenchantée: $note_menu_colors, chicfrançaise: $chic_menu_colors, délicepapilles: $délice_menu_colors, palettegout: $palettegout_menu_colors );
+/*breakpoints responsive*/
 $breakpoints: ( tablette: 767px, mobile: 599px, cellphone: 399px);

@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+/*couleur header*/
+/*couleur fond et font des blocs menu*/
+/*gradient et couleur menus*/
+/*breakpoints responsive*/
 /*mixins responsive */
 @keyframes wiggle {
   0% {
@@ -140,15 +144,15 @@ h2 {
   padding: 5%;
   box-shadow: 5px 5px 10px grey;
 }
-.menu h4 {
+.menu--noteenchantée .entrée h4 {
   width: 35%;
   font-size: 1.5rem;
   text-align: center;
 }
-.menu h4 span {
+.menu--noteenchantée .entrée h4 span {
   position: relative;
 }
-.menu h4 span:before {
+.menu--noteenchantée .entrée h4 span:before {
   content: "";
   position: absolute;
   width: 0;
@@ -157,9 +161,262 @@ h2 {
   left: 0;
   visibility: hidden;
   transition: all 0.4s ease-in-out;
-  background: black;
+  background: #3d1319;
 }
-.menu h4 span:hover:before {
+.menu--noteenchantée .entrée h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--noteenchantée .plat h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--noteenchantée .plat h4 span {
+  position: relative;
+}
+.menu--noteenchantée .plat h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #3d1319;
+}
+.menu--noteenchantée .plat h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--noteenchantée .dessert h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--noteenchantée .dessert h4 span {
+  position: relative;
+}
+.menu--noteenchantée .dessert h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #3d1319;
+}
+.menu--noteenchantée .dessert h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--chicfrançaise .entrée h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--chicfrançaise .entrée h4 span {
+  position: relative;
+}
+.menu--chicfrançaise .entrée h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #c67412;
+}
+.menu--chicfrançaise .entrée h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--chicfrançaise .plat h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--chicfrançaise .plat h4 span {
+  position: relative;
+}
+.menu--chicfrançaise .plat h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #a56799;
+}
+.menu--chicfrançaise .plat h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--chicfrançaise .dessert h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--chicfrançaise .dessert h4 span {
+  position: relative;
+}
+.menu--chicfrançaise .dessert h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #6e4ccc;
+}
+.menu--chicfrançaise .dessert h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--délicepapilles .entrée h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--délicepapilles .entrée h4 span {
+  position: relative;
+}
+.menu--délicepapilles .entrée h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #0228dd;
+}
+.menu--délicepapilles .entrée h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--délicepapilles .plat h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--délicepapilles .plat h4 span {
+  position: relative;
+}
+.menu--délicepapilles .plat h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #0670f3;
+}
+.menu--délicepapilles .plat h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--délicepapilles .dessert h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--délicepapilles .dessert h4 span {
+  position: relative;
+}
+.menu--délicepapilles .dessert h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #229df9;
+}
+.menu--délicepapilles .dessert h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--palettegout .entrée h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--palettegout .entrée h4 span {
+  position: relative;
+}
+.menu--palettegout .entrée h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #3e923a;
+}
+.menu--palettegout .entrée h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--palettegout .plat h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--palettegout .plat h4 span {
+  position: relative;
+}
+.menu--palettegout .plat h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #3e923a;
+}
+.menu--palettegout .plat h4 span:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.menu--palettegout .dessert h4 {
+  width: 35%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.menu--palettegout .dessert h4 span {
+  position: relative;
+}
+.menu--palettegout .dessert h4 span:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: #3e923a;
+}
+.menu--palettegout .dessert h4 span:hover:before {
   visibility: visible;
   width: 100%;
 }
@@ -168,6 +425,7 @@ h2 {
   font-size: 4rem;
   background: linear-gradient(to right, #f05461, #f6916a);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 .menu .titre {
@@ -181,13 +439,6 @@ h2 {
   .menu .titre {
     flex-direction: column-reverse;
   }
-}
-.menu .titre .separateur1 {
-  fill: #3d1319;
-  /*width: 35%;*/
-}
-.menu .titre .separateur2 {
-  /* width: 30%;*/
 }
 .menu .titre .separateur-left {
   width: 30%;
@@ -236,18 +487,21 @@ h2 {
 .menu--chicfrançaise h3 {
   background: linear-gradient(90deg, #e38a12, #915dfe);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   text-align: center;
 }
 .menu--délicepapilles h3 {
   background: linear-gradient(90deg, #314de1, #349cfb);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   text-align: center;
 }
 .menu--palettegout h3 {
   background: linear-gradient(90deg, #3e923a, #bfff80);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   text-align: center;
 }
@@ -262,6 +516,10 @@ h2 {
 }
 .menu--palettegout {
   font-family: meriendaone;
+}
+.menu--noteenchantée {
+  color: #3d1319;
+  fill: #3d1319;
 }
 .menu--chicfrançaise .entrée {
   color: #c67412;
