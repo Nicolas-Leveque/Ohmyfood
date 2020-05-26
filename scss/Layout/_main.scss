@@ -7,18 +7,17 @@ main {
     @include tablette {
             flex-direction: column;
             justify-content: center;
-            text-align: center;
-            
+            text-align: center;           
         }
     .bloc {
         @include blocs_color;
         @include blocs_font;    
         @include gradient_titre;
+        @include color_h2;
         @include tablette {
             height: 250px;
             width: auto;
         }
-        
         height: 400px;
         width: 35%;
         margin: 5%;
@@ -36,29 +35,33 @@ main {
                 opacity: 1;
                 transition: all 500ms ease-in-out;
                 &:hover {
+                    //agrandissement au passage de la souris sur page d'accueil
                     transform: scale(1.15);
                     opacity: 0.6;                               
                 }
             }
             i {
+                //note de musique pour menu 1
                 position: relative;
-                width: fit-content ;
                 font-size: 4rem;
                 background: linear-gradient(to right, #f05461, #f6916a);
                 background-clip: text;
                 -webkit-background-clip: text;
                 color: transparent;
             }
-            h3 {
-                font-size: 1.5rem;
-                font-weight: 100;
-            }
+            
             h2 {
                 margin-top: 0;
                 font-size: 2.5rem;
             }
+            
         }
-    
+    &--noteenchantée h3 {
+                color: #3d1319;
+        }
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 100;
     }
-    
+    }    
 }

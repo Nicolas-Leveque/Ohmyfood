@@ -4,7 +4,6 @@ aside {
     mark {
         display: flex;
         flex-direction: row;
-        /*max-width: 30%;*/
         border: solid 1px $background_header;
         border-radius: 20px;
         color: $color_header;
@@ -12,8 +11,7 @@ aside {
         padding: 20px;
         margin: 10px;
         font-size: 2rem;
-        text-align: center;
-        
+        text-align: center;        
     }
 }
 .dot {

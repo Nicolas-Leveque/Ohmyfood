@@ -4,10 +4,12 @@ body {
   padding: 0;
 }
 
-/*couleur header*/
-/*couleur fond et font des blocs menu*/
-/*gradient et couleur menus*/
-/*breakpoints responsive*/
+/*couleur des bloc menu sur page d'acceuill*/
+/* police des blocs menu sur page accueil*/
+/*gradient de couleur sur les noms de rstaurant*/
+/* couleur du mot menu dans les blocs menu sur page d'accueil*/
+/*réalisation de l'effet underline avec couleur dans les menus*/
+/*typo spécifique aux menu 2 à 4 */
 /*mixins responsive */
 @keyframes wiggle {
   0% {
@@ -53,10 +55,6 @@ body {
   }
 }
 @font-face {
-  font-family: "devonshire";
-  src: url(../fonts/Devonshire-Regular.ttf) format("truetype");
-}
-@font-face {
   font-family: "gabriela";
   src: url(../fonts/Gabriela-Regular.ttf) format("truetype");
 }
@@ -67,6 +65,14 @@ body {
 @font-face {
   font-family: "meriendaone";
   src: url(../fonts/MeriendaOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "dancing";
+  src: url(../fonts/DancingScript-VariableFont.ttf) format("truetype");
+}
+@font-face {
+  font-family: "applestorm";
+  src: url(../fonts/applestormrg.otf) format("opentype");
 }
 header {
   width: 100%;
@@ -470,7 +476,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .menu--noteenchantée {
   background-color: #fcdfdb;
@@ -485,6 +491,7 @@ h2 {
   background-color: #fdfffd;
 }
 .menu--chicfrançaise h3 {
+  position: relative;
   background: linear-gradient(90deg, #e38a12, #915dfe);
   background-clip: text;
   -webkit-background-clip: text;
@@ -492,6 +499,7 @@ h2 {
   text-align: center;
 }
 .menu--délicepapilles h3 {
+  position: relative;
   background: linear-gradient(90deg, #314de1, #349cfb);
   background-clip: text;
   -webkit-background-clip: text;
@@ -499,6 +507,7 @@ h2 {
   text-align: center;
 }
 .menu--palettegout h3 {
+  position: relative;
   background: linear-gradient(90deg, #3e923a, #bfff80);
   background-clip: text;
   -webkit-background-clip: text;
@@ -506,13 +515,13 @@ h2 {
   text-align: center;
 }
 .menu--noteenchantée {
-  font-family: devonshire;
+  font-family: applestorm;
 }
 .menu--chicfrançaise {
   font-family: gabriela;
 }
 .menu--délicepapilles {
-  font-family: great-vibes;
+  font-family: dancing;
 }
 .menu--palettegout {
   font-family: meriendaone;
