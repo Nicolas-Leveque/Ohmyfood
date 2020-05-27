@@ -180,6 +180,7 @@ main .bloc--palettegout h2 {
   main .bloc {
     height: 250px;
     width: auto;
+    padding: 5%;
   }
 }
 main .bloc a {

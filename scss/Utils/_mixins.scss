@@ -46,6 +46,9 @@
                         width: 35%;
                         font-size: 1.5rem;
                         text-align: center;
+                        @include tablette {
+                            font-size: 1rem;
+                        }
                         & span {
                             position: relative;
                             &:before {
@@ -74,6 +77,9 @@
 @mixin menu_typo_alt {
     padding-left: 10%;
     padding-right: 10%;
+    @include mobile {
+        padding: 5%;
+    }
 }
 /*mixins responsive */
 @mixin tablette {

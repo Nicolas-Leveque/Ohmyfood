@@ -51,6 +51,7 @@ h2
                 width: 75%;
             }
         }
+        
     }  
     ul
     {
@@ -69,6 +70,9 @@ h2
         margin-right: auto;
         text-align: center;
         font-size: 4rem;
+        @include tablette {
+            font-size: 2rem;
+        }
     }
     @include blocs_color;
     @include gradient_titre;
@@ -120,6 +124,7 @@ h2
             fill: url(#Gradient-right);
         }
     }
+    
  
 }
 .icon {

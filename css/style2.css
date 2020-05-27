@@ -155,6 +155,11 @@ h2 {
   font-size: 1.5rem;
   text-align: center;
 }
+@media all and (max-width: 800px) {
+  .menu--noteenchantée .entrée h4 {
+    font-size: 1rem;
+  }
+}
 .menu--noteenchantée .entrée h4 span {
   position: relative;
 }
@@ -177,6 +182,11 @@ h2 {
   width: 35%;
   font-size: 1.5rem;
   text-align: center;
+}
+@media all and (max-width: 800px) {
+  .menu--noteenchantée .plat h4 {
+    font-size: 1rem;
+  }
 }
 .menu--noteenchantée .plat h4 span {
   position: relative;
@@ -201,6 +211,11 @@ h2 {
   font-size: 1.5rem;
   text-align: center;
 }
+@media all and (max-width: 800px) {
+  .menu--noteenchantée .dessert h4 {
+    font-size: 1rem;
+  }
+}
 .menu--noteenchantée .dessert h4 span {
   position: relative;
 }
@@ -223,6 +238,11 @@ h2 {
   width: 35%;
   font-size: 1.5rem;
   text-align: center;
+}
+@media all and (max-width: 800px) {
+  .menu--chicfrançaise .entrée h4 {
+    font-size: 1rem;
+  }
 }
 .menu--chicfrançaise .entrée h4 span {
   position: relative;
@@ -247,6 +267,11 @@ h2 {
   font-size: 1.5rem;
   text-align: center;
 }
+@media all and (max-width: 800px) {
+  .menu--chicfrançaise .plat h4 {
+    font-size: 1rem;
+  }
+}
 .menu--chicfrançaise .plat h4 span {
   position: relative;
 }
@@ -269,6 +294,11 @@ h2 {
   width: 35%;
   font-size: 1.5rem;
   text-align: center;
+}
+@media all and (max-width: 800px) {
+  .menu--chicfrançaise .dessert h4 {
+    font-size: 1rem;
+  }
 }
 .menu--chicfrançaise .dessert h4 span {
   position: relative;
@@ -293,6 +323,11 @@ h2 {
   font-size: 1.5rem;
   text-align: center;
 }
+@media all and (max-width: 800px) {
+  .menu--délicepapilles .entrée h4 {
+    font-size: 1rem;
+  }
+}
 .menu--délicepapilles .entrée h4 span {
   position: relative;
 }
@@ -315,6 +350,11 @@ h2 {
   width: 35%;
   font-size: 1.5rem;
   text-align: center;
+}
+@media all and (max-width: 800px) {
+  .menu--délicepapilles .plat h4 {
+    font-size: 1rem;
+  }
 }
 .menu--délicepapilles .plat h4 span {
   position: relative;
@@ -339,6 +379,11 @@ h2 {
   font-size: 1.5rem;
   text-align: center;
 }
+@media all and (max-width: 800px) {
+  .menu--délicepapilles .dessert h4 {
+    font-size: 1rem;
+  }
+}
 .menu--délicepapilles .dessert h4 span {
   position: relative;
 }
@@ -361,6 +406,11 @@ h2 {
   width: 35%;
   font-size: 1.5rem;
   text-align: center;
+}
+@media all and (max-width: 800px) {
+  .menu--palettegout .entrée h4 {
+    font-size: 1rem;
+  }
 }
 .menu--palettegout .entrée h4 span {
   position: relative;
@@ -385,6 +435,11 @@ h2 {
   font-size: 1.5rem;
   text-align: center;
 }
+@media all and (max-width: 800px) {
+  .menu--palettegout .plat h4 {
+    font-size: 1rem;
+  }
+}
 .menu--palettegout .plat h4 span {
   position: relative;
 }
@@ -407,6 +462,11 @@ h2 {
   width: 35%;
   font-size: 1.5rem;
   text-align: center;
+}
+@media all and (max-width: 800px) {
+  .menu--palettegout .dessert h4 {
+    font-size: 1rem;
+  }
 }
 .menu--palettegout .dessert h4 span {
   position: relative;
@@ -478,6 +538,11 @@ h2 {
   text-align: center;
   font-size: 4rem;
 }
+@media all and (max-width: 800px) {
+  .menu h3 {
+    font-size: 2rem;
+  }
+}
 .menu--noteenchantée {
   background-color: #fcdfdb;
 }
@@ -546,6 +611,11 @@ h2 {
   padding-left: 10%;
   padding-right: 10%;
 }
+@media all and (max-width: 599px) {
+  .menu--chicfrançaise .liste {
+    padding: 5%;
+  }
+}
 .menu--délicepapilles .entrée {
   fill: #0228dd;
 }
@@ -559,9 +629,19 @@ h2 {
   padding-left: 10%;
   padding-right: 10%;
 }
+@media all and (max-width: 599px) {
+  .menu--délicepapilles .liste {
+    padding: 5%;
+  }
+}
 .menu--palettegout .liste {
   padding-left: 10%;
   padding-right: 10%;
+}
+@media all and (max-width: 599px) {
+  .menu--palettegout .liste {
+    padding: 5%;
+  }
 }
 .menu--palettegout .separateur-left {
   fill: url(#Gradient-left);

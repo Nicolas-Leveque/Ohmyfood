@@ -17,6 +17,7 @@ main {
         @include tablette {
             height: 250px;
             width: auto;
+            padding: 5%;
         }
         height: 400px;
         width: 35%;
