@@ -3,12 +3,6 @@ h2
     font-size: 2rem;
     text-align: center;
 }
-.top
-{
-    width: 100%;
-    font-size: 4rem;
-    text-align: center;
-}
 .menu
 {
     width: 80%;
@@ -50,8 +44,7 @@ h2
             @include mobile {
                 width: 75%;
             }
-        }
-        
+        }       
     }  
     ul
     {
@@ -77,6 +70,7 @@ h2
     @include blocs_color;
     @include gradient_titre;
     @include blocs_font;
+    //style et couleurs spécifique à chaque menu
     &--noteenchantée {
         color: $note_color;
         fill: $note_color;

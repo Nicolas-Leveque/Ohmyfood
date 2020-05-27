@@ -1,3 +1,4 @@
+//animation wiggle du footer
 @keyframes wiggle {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -11,6 +12,7 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+  //animation des points sur page accueil
 @keyframes dot {
   from {
     transform: translateY(-10px);

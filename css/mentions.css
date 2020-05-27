@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -47,13 +46,6 @@ body {
     transform: translateY(0px);
   }
 }
-/*couleur des bloc menu sur page d'acceuill*/
-/* police des blocs menu sur page accueil*/
-/*gradient de couleur sur les noms de rstaurant*/
-/* couleur du mot menu dans les blocs menu sur page d'accueil*/
-/*réalisation de l'effet underline avec couleur dans les menus*/
-/*typo spécifique aux menu 2 à 4 */
-/*mixins responsive */
 header {
   width: 100%;
 }

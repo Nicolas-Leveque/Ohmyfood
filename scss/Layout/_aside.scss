@@ -1,3 +1,4 @@
+//encart "prochainement" avec les points animés
 aside {
     display: flex;
     justify-content: center;
@@ -14,12 +15,13 @@ aside {
         text-align: center;        
     }
 }
+//animation des points
 .dot {
     animation: dot 500ms ease-in infinite alternate;
-}
-.dot--1 {
+    &--1 {
     animation-delay: 100ms;
 }
-.dot--2 {
+    &--2 {
     animation-delay: 200ms;
+}
 }

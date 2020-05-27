@@ -1,4 +1,4 @@
-/*couleur des bloc menu sur page d'acceuill*/
+//couleur des bloc menu sur page d'acceuil
 @mixin blocs_color {
     @each $bloc, $color in $blocs_colors {
         &--#{$bloc}{
@@ -7,7 +7,7 @@
         }    
 }
 }
-/* police des blocs menu sur page accueil*/
+// police des blocs menu sur page accueil
 @mixin blocs_font{
     @each $bloc, $font in $blocs_font {
         &--#{$bloc}{
@@ -15,7 +15,7 @@
         }
     }
 }
-/*gradient de couleur sur les noms de rstaurant*/
+//gradient de couleur sur les noms de restaurant
 @mixin gradient_titre {
     @each $bloc, $gradient in $map_gradient {
         &--#{$bloc} h3 {
@@ -28,7 +28,7 @@
         } 
     }
 }
-/* couleur du mot menu dans les blocs menu sur page d'accueil*/
+// couleur du mot menu dans les blocs menu sur page d'accueil
 @mixin color_h2 {
     @each $bloc, $color in $map_color_h2 {
         &--#{$bloc} h2 {
@@ -36,7 +36,7 @@
         }
     }
 }
-/*réalisation de l'effet underline avec couleur dans les menus*/
+//réalisation de l'effet underline avec couleur dans les menu
 @mixin underline_menu {
     @each $menu, $map_color in $map_menu_colors {
         &--#{$menu} {
@@ -73,7 +73,7 @@
         }
     }
 }
-/*typo spécifique aux menu 2 à 4 */
+//typo spécifique aux menu 2 à 4 
 @mixin menu_typo_alt {
     padding-left: 10%;
     padding-right: 10%;
@@ -81,7 +81,7 @@
         padding: 5%;
     }
 }
-/*mixins responsive */
+//mixins responsive
 @mixin tablette {
     @media all and (max-width: map-get($breakpoints, tablette )){
         @content;
