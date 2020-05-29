@@ -12,16 +12,17 @@ h2
     padding: 5%;
     box-shadow: 5px 5px 10px grey;
     @include underline_menu;
+    //icone note général
     i {
         
         width: fit-content ;
-        font-size: 4rem;
         background: linear-gradient(to right, nth($gradient_noteenchantée, 1 ), nth( $gradient_noteenchantée, 2));
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
        
     }
+    //sous ensemnble menu général
     .titre
     {
         display: flex;
@@ -45,7 +46,8 @@ h2
                 width: 75%;
             }
         }       
-    }  
+    }
+    //liste des plat général 
     ul
     {
         list-style: none;
@@ -121,13 +123,14 @@ h2
     
  
 }
+//icone note en haut du menu 1
 .icon {
     text-align: center;
     i {
     font-size: 6rem;
     }
 }
-
+//bas du menu 1
 .pied p
 {
     text-align: center;
