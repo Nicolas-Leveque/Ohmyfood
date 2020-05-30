@@ -16,10 +16,7 @@ h2
     i {
         
         width: fit-content ;
-        background: linear-gradient(to right, nth($gradient_noteenchantée, 1 ), nth( $gradient_noteenchantée, 2));
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
+        @include gradient_icone;
        
     }
     //sous ensemnble menu général

@@ -475,10 +475,11 @@ h2 {
 }
 .menu i {
   width: fit-content;
+  color: #3d1319;
   background: linear-gradient(to right, #f05461, #f6916a);
-  background-clip: text;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  color: transparent;
 }
 .menu .titre {
   display: flex;
@@ -543,27 +544,30 @@ h2 {
 }
 .menu--chicfrançaise h3 {
   position: relative;
-  background: linear-gradient(90deg, #e38a12, #915dfe);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
   text-align: center;
+  color: #e38a12;
+  background: linear-gradient(90deg, #e38a12, #915dfe);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .menu--délicepapilles h3 {
   position: relative;
-  background: linear-gradient(90deg, #314de1, #349cfb);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
   text-align: center;
+  color: #314de1;
+  background: linear-gradient(90deg, #314de1, #349cfb);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .menu--palettegout h3 {
   position: relative;
-  background: linear-gradient(90deg, #3e923a, #bfff80);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
   text-align: center;
+  color: #3e923a;
+  background: linear-gradient(90deg, #3e923a, #bfff80);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .menu--noteenchantée {
   font-family: applestorm;

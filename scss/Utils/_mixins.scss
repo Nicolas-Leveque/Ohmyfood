@@ -20,13 +20,22 @@
     @each $bloc, $gradient in $map_gradient {
         &--#{$bloc} h3 {
             position: relative;
-            background: linear-gradient(90deg, nth($gradient, 1), nth($gradient, 2));
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
             text-align: center;
+            color: nth($gradient, 1);
+            background: linear-gradient(90deg, nth($gradient, 1), nth($gradient, 2));
+            background-clip: border-box;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;            
         } 
     }
+}
+//gradient icone note enchantée
+@mixin gradient_icone {
+    color: $note_color;
+    background: linear-gradient(to right, nth($gradient_noteenchantée, 1 ), nth( $gradient_noteenchantée, 2));
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 // couleur du mot menu dans les blocs menu sur page d'accueil
 @mixin color_h2 {
