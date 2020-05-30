@@ -475,7 +475,6 @@ h2 {
 }
 .menu i {
   width: fit-content;
-  font-size: 4rem;
   background: linear-gradient(to right, #f05461, #f6916a);
   background-clip: text;
   -webkit-background-clip: text;
