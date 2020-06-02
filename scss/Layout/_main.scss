@@ -2,7 +2,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 3% 10% 10% 10%;
+    padding: 3% 5% 5% 5%;
     margin: auto;
     @include tablette {
             flex-direction: column;
@@ -19,9 +19,9 @@ main {
             width: auto;
             padding: 5%;
         }        
-        height: 400px;
-        width: 35%;
-        margin: 5%;
+        height: 450px;
+        width: 350px;
+        margin: 2%;
         box-shadow: 5px 5px 5px 5px gray;
         a {
             display: flex;
