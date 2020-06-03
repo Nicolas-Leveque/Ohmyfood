@@ -2,8 +2,11 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 3% 5% 5% 5%;
+    padding: 5%;
     margin: auto;
+    @include medium {
+        padding: 3%;
+    }
     @include tablette {
             flex-direction: column;
             justify-content: center;
