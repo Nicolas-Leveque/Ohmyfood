@@ -106,3 +106,8 @@
         @content;
     }
 }
+@mixin medium {
+    @media all and (max-width: map-get($breakpoints, medium)){
+        @content;
+    }
+}

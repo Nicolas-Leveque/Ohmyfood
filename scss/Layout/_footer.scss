@@ -16,6 +16,10 @@ footer {
         &:hover {
             animation: wiggle 0.5s infinite;
         }
+        @include mobile {
+            height: 3rem;
+            line-height: 3rem;
+        }
     }
     @include mobile {
         height: auto;

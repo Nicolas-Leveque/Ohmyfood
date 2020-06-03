@@ -65,6 +65,8 @@ header h1 {
 @media all and (max-width: 599px) {
   header h1 {
     font-size: 4rem;
+    height: 6rem;
+    line-height: 6rem;
   }
 }
 
@@ -92,6 +94,12 @@ footer a {
 }
 footer a:hover {
   animation: wiggle 0.5s infinite;
+}
+@media all and (max-width: 599px) {
+  footer a {
+    height: 3rem;
+    line-height: 3rem;
+  }
 }
 @media all and (max-width: 599px) {
   footer {
