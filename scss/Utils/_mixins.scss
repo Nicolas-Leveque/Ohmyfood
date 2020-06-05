@@ -1,4 +1,4 @@
-//couleur des bloc menu sur page d'acceuil
+//couleur des bloc menu
 @mixin blocs_color {
     @each $bloc, $color in $blocs_colors {
         &--#{$bloc}{
@@ -7,7 +7,7 @@
         }    
 }
 }
-// police des blocs menu sur page accueil
+// police des blocs menu
 @mixin blocs_font{
     @each $bloc, $font in $blocs_font {
         &--#{$bloc}{
@@ -37,7 +37,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-// couleur du mot menu dans les blocs menu sur page d'accueil
+// couleur du mot menu dans les blocs menu 
 @mixin color_h2 {
     @each $bloc, $color in $map_color_h2 {
         &--#{$bloc} h2 {
