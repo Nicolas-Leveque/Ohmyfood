@@ -2,7 +2,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 5% 15% 5% 15%;
     margin: auto;
     @include medium {
         padding: 3%;
@@ -11,7 +11,10 @@ main {
             flex-direction: column;
             justify-content: center;
             text-align: center;           
-        }
+    }
+    @include large {
+        padding: 2%;
+    }
     .bloc {
         @include blocs_color;
         @include blocs_font;    

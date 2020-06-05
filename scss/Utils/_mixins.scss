@@ -111,3 +111,8 @@
         @content;
     }
 }
+@mixin large {
+    @media all and (min-width: map-get($breakpoints, large)){
+        @content;
+    }
+}
