@@ -21,7 +21,7 @@
         &--#{$bloc} h3 {
             position: relative;
             text-align: center;
-            color: nth($gradient, 1);
+            color: $note_color;
             background: linear-gradient(90deg, nth($gradient, 1), nth($gradient, 2));
             background-clip: border-box;
             -webkit-text-fill-color: transparent;

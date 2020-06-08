@@ -148,7 +148,7 @@ main .bloc--palettegout {
 main .bloc--chicfrançaise h3 {
   position: relative;
   text-align: center;
-  color: #e38a12;
+  color: #3d1319;
   background: linear-gradient(90deg, #e38a12, #915dfe);
   background-clip: border-box;
   -webkit-text-fill-color: transparent;
@@ -157,7 +157,7 @@ main .bloc--chicfrançaise h3 {
 main .bloc--délicepapilles h3 {
   position: relative;
   text-align: center;
-  color: #314de1;
+  color: #3d1319;
   background: linear-gradient(90deg, #314de1, #349cfb);
   background-clip: border-box;
   -webkit-text-fill-color: transparent;
@@ -166,7 +166,7 @@ main .bloc--délicepapilles h3 {
 main .bloc--palettegout h3 {
   position: relative;
   text-align: center;
-  color: #3e923a;
+  color: #3d1319;
   background: linear-gradient(90deg, #3e923a, #bfff80);
   background-clip: border-box;
   -webkit-text-fill-color: transparent;
